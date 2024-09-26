@@ -1,0 +1,38 @@
+/*selecteur universel */
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #131313;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center
+
+}
+
+main{
+    background-color: #1f1f1f;
+    text-align: center;
+    padding: 40px;
+    width: 384px;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+li{
+    background-color: #333333;
+    margin-bottom: 16px;
+
+}
+
+a{
+    display: block;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    text-align: center;
+}
